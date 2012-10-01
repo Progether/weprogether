@@ -11,10 +11,34 @@ on it with me.
 
 Clone this repository to a web server. Please work using feature branches. This
 means when you have a feature to add, create a branch for it, and make any
-of your commits to it. When you are prepared to submit your final pull request
-for merging, you can do so from this feature branch. I will then review the
-changes for merging into master. From there, they will be used on the actual
-weprogether.com website!
+of your commits to it. The Workflow section goes into more detail on the exact
+commands you will be using to do this. When you are prepared to submit your
+final pull request for merging, you can do so from this feature branch. I will
+then review the changes for merging into master. From there, they will be used
+on the actual weprogether.com website!
+
+## Workflow
+
+As stated in the Installation section, we use a feature branch based workflow, like so:
+
+```bash
+git clone https://github.com/Progether/weprogether.git
+cd weprogether
+git checkout master
+git pull
+git checkout -b <weprogether-yourfeaturebranchname>
+make changes
+git add <changed files>
+git commit -m 'Useful, short message describing your most recent changes'
+make changes
+git add <changed files>
+git commit -m 'Useful, concise message describing your changes since the last commit'
+git push origin <weprogether-yourfeaturebranchname>
+```
+
+Once you have pushed to Github.com, log into Github.com and open a Pull Request from your feature branch, which I will review and either reject (with comments to help you fix any glaring issues), or merge into the master branch.
+
+Easy peasy!
 
 ## License
 
