@@ -26,14 +26,14 @@ git clone https://github.com/Progether/weprogether.git
 cd weprogether
 git checkout master
 git pull
-git checkout -b <progether-yourfeaturebranchname>
+git checkout -b <weprogether-yourfeaturebranchname>
 make changes
 git add <changed files>
 git commit -m 'Useful, short message describing your most recent changes'
 make changes
 git add <changed files>
 git commit -m 'Useful, concise message describing your changes since the last commit'
-git push origin <progether-yourfeaturebranchname>
+git push origin <weprogether-yourfeaturebranchname>
 ```
 
 Once you have pushed to Github.com, log into Github.com and open a Pull Request from your feature branch, which I will review and either reject (with comments to help you fix any glaring issues), or merge into the master branch.
