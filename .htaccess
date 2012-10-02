@@ -1,1 +1,2 @@
-RedirectMatch 404 "(?:.*)/(?:\.git|file_or_dir)(?:/.*)?$"
+RedirectMatch 404 "/.git"
+RedirectMatch 404 "/assets"
