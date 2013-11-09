@@ -4,7 +4,7 @@
 
 Culturally, we want to make everything related to the Progether project a
 potential learning experience. It is in this vein that I have decided to make
-the source for www.weprogether.com open to anyone who is interested in working
+the source for the progether website open to anyone who is interested in working
 on it with me.
 
 ## Installation
@@ -22,9 +22,9 @@ on the actual weprogether.com website!
 As stated in the Installation section, we use a feature branch based workflow, like so:
 
 ```bash
-git clone https://github.com/Progether/weprogether.git
+git clone https://github.com/projectdelphai/weprogether.git
 cd weprogether
-git checkout master
+git checkout gh-pages
 git pull
 git checkout -b <weprogether-yourfeaturebranchname>
 make changes
@@ -36,7 +36,7 @@ git commit -m 'Useful, concise message describing your changes since the last co
 git push origin <weprogether-yourfeaturebranchname>
 ```
 
-Once you have pushed to Github.com, log into Github.com and open a Pull Request from your feature branch, which I will review and either reject (with comments to help you fix any glaring issues), or merge into the master branch.
+Once you have pushed to Github.com, log into Github.com and open a Pull Request from your feature branch TO THE GH-PAGES BRANCH, which I will review and either reject (with comments to help you fix any glaring issues), or merge into the gh-pages.
 
 Easy peasy!
 
