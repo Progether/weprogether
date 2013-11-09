@@ -1,5 +1,11 @@
 # README
 
+## Note about Website
+
+Because of the way github pages works, the actual source code for this website is help in the gh-pages branch. To view, change the branch from master to gh-pages.
+
+Thanks.
+
 ## Synopsis
 
 Culturally, we want to make everything related to the Progether project a
